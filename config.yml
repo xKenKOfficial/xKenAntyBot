@@ -1,0 +1,44 @@
+# Tutaj mozna ustawic prefix pluginu:
+prefix: "&3&lxKenAntyBot"
+
+# Tutaj mozna ustawic wiadomosc o braku permisji do komendy:
+no_permission: "&8>> &cNie masz dostepu do tej komendy!"
+
+# Tutaj mozna ustawic wiadomosc, jesli podano za duzo argumentow przy komendzie:
+wrong_args: "&8>> &cZa duza ilosc argumentow!"
+
+# Tutaj mozna ustawic wiadomosc poprawnego uzycia dla komendy /blacklist:
+blacklist_command_usage: "&8>> &7Poprawne uzycie&8: &b/blacklist (ip gracza) (powod)"
+
+# Tutaj mozna ustawic powod kick, jesli gracz zostal dodany do blacklisty:
+blacklist_player_kick: "&3&lxKenAntyBot\n&7Zostales dodany do blacklisty za&8: &c{POWOD}"
+
+# Tutaj mozna ustawic wiadomosc do administratora, jesli dodal dane ip do blacklisty:
+blacklist_admin_banned_ip: "&8>> &7Pomyslnie dodano IP do blacklisty&8: &b{IP}"
+
+# Tutaj mozna ustawic wiadomosc do wszystkich administratorow, jesli ip zostalo dodane do blacklisty:
+blacklist_admins_message: "&8>> &7Administrator &f{ADMIN} &7dodal do blacklisty IP&8: &b{IP}"
+
+# Tutaj mozna ustawic wiadomosc poprawnego uzycia dla komendy /unblacklist:
+unblacklist_command_usage: "&8>> &7Poprawne uzycie&8: &b/unblacklist (ip)"
+
+# Tutaj mozna ustawic wiadomosc, jesli dane ip zostalo usuniete z blacklisty:
+unblacklist_unbanned_ip: "&8>> &7Pomyslnie usunieto IP z blacklisty&8: &b{IP}"
+
+# Tutaj mozna ustawic wiadomosc, jesli ip nie jest na blackliscie lub zostalo zle wpisane:
+unblacklist_wrong_ip: "&8>> &cTo IP nie jest na blackliscie!"
+
+settings:
+  blacklist:
+    - '&8----------&8&l[&cBlacklist&8&l]&8----------'
+    - '&8>> &7Zostales dodany do &4Blacklisty &7przez&8: &c{ADMIN}!'
+    - '&8>> &7Powod dodania do blacklisty&8: &c{POWOD}'
+    - '&8>> &7Zlamales regulamin serwera, twoj udzial zostal ograniczony!'
+    - '&8>> &7Jesli to blad, zglos to na naszym serwerze Discord!'
+    - '&8----------&8&l[&cBlacklist&8&l]&8----------'
+
+# Tutaj mozna ustawic wiadomosc kick, jesli uzytkownik jest zweryfikowany:
+verified_player_kick: "&8&l&m[&a&lWeryfikacja&8&l&m]\n&7Zostales pomyslnie zweryfikowany, wejdz ponownie na serwer."
+
+# Tutaj mozna wlaczyc i wylaczyc informacje o pluginie:
+plugin_info: true
